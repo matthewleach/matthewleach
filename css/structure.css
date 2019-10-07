@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* STRUCTURE
+   This CSS document contains all the page structure 
+   coding for the primary DIV tags.
+*/
+/**
+ * 100% height layout with header and footer
+ * ----------------------------------------------
+ * Feel free to copy/use/change/improve
+ */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: url(../images/background/bg.gif) fixed;
+    color: #666;
+}
+
+#wrapper {
+    position: relative;
+    /* needed for footer positioning*/
+    
+    margin: 0 auto;
+    /* center, not in IE5 */
+    
+    width: 1030px;
+    background: url(../images/background/main_bg.png) repeat-y;
+    ;
+    height: auto !important;
+    /* real browsers */
+    
+    height: 100%;
+    /* IE6: treaded as min-height*/
+    
+    min-height: 100%;
+    /* real browsers */
+}
+
+#header {
+    width: 980px;
+    height: 167px;
+    margin-left: 25px;
+    background: url(../images/background/header.png) no-repeat;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+}
+
+#content {
+    position: relative;
+    width: 970px;
+    padding: 122px 0px 20px 35px;
+    /* bottom padding for footer */
+}
+
+#content_contact {
+    position: relative;
+    width: 980px;
+    padding: 122px 25px 175px 25px;
+    /* bottom padding for footer */
+    
+    min-height: 200px;
+}
+
+#footer {
+    width: 980px;
+    height: 150px;
+    margin-left: 25px;
+    /*position:absolute;*/
+    /*bottom:0;  stick to bottom */
+    
+    background: url(../images/background/footer.jpg);
+}
+
+#footer_stick {
+    width: 980px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    background: url(../images/background/footer.jpg);
+}
+/* ----- Navigation -----*/
+
+#menu {
+    position: absolute;
+    left: 329px;
+    top: 83px;
+}
+
+#menu a {
+    display: inline;
+    float: left;
+    background-position: top;
+    text-indent: -5000em;
+}
+
+#menu a:hover {
+    background-position: bottom;
+}
+
+a#home_btn {
+    height: 40px;
+    width: 118px;
+    background-image: url(../images/nav/home_btn.jpg);
+}
+
+a#about_btn {
+    height: 40px;
+    width: 119px;
+    background-image: url(../images/nav/about_btn.jpg);
+}
+
+a#portfolio_btn {
+    height: 40px;
+    width: 142px;
+    background-image: url(../images/nav/portfolio_btn.jpg);
+}
+
+a#services_btn {
+    height: 40px;
+    width: 138px;
+    background-image: url(../images/nav/services_btn.jpg);
+}
+
+a#contact_btn {
+    height: 40px;
+    width: 133px;
+    background-image: url(../images/nav/contact_btn.jpg);
+}

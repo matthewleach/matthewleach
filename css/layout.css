@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/* LAYOUT
+   This CSS document contains all the columns and 
+   formatting for the content within all the pages.	
+*/
+
+/* Basic CSS Format
+selector {
+	property:value 
+}
+*//* -------- Column Layouts  -------*/
+
+.one_half {
+	width:460px;
+}
+
+.one_third {
+	width:300px;
+}
+
+.two_third {
+	width:620px;
+}
+
+.one_fourth {
+	width:220px;
+}
+
+.three_fourth {
+	width:700px;
+}
+
+.full_column {
+	width:940px;
+}
+
+.total_column {
+	width:980px;
+}
+
+.one_half, .one_third, .two_third, .three_fourth, .one_fourth, .full_column {
+	position:relative;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:20px;
+	float:left;
+}
+
+
+.clear {
+	clear:both;
+	display:block;
+	height:0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* -------- Page Headers  -------*/
+
+#blueBox_iDesign {
+  width: 980px;
+  height: 330px;
+  margin-left:-10px;
+  margin-bottom: 30px;
+  overflow:hidden;
+}
+#blueBox_iDesign_inner {
+  width: 980px;
+  height: 300px;
+  background:#081a23 url(../images/home/bluebox/blueBox_iDesign.jpg) no-repeat;
+}
+
+.blueBox_about {
+  width: 980px;
+  height: 200px;
+    margin-left:-10px;
+  background:#081a23 url(../images/about/blueBox_about.jpg) no-repeat;
+  margin-bottom: 30px;
+}
+
+.blueBox_portfolio {
+  width: 980px;
+  height: 200px;
+    margin-left:-10px;
+  background:#081a23 url(../images/portfolio/blueBox_portfolio.jpg) no-repeat;
+  margin-bottom: 30px;
+}
+
+.blueBox_services {
+  width: 980px;
+  height: 200px;
+    margin-left:-10px;
+  background:#081a23 url(../images/services/blueBox_services.jpg) no-repeat;
+  margin-bottom: 30px;
+}
+
+.blueBox_contact {
+  width: 980px;
+  height: 200px;
+    margin-left:-10px;
+  background:#081a23 url(../images/contact/blueBox_contact.jpg) no-repeat;
+  margin-bottom: 30px;
+}
+
+/* -------- Home Page Announcement  -------*/
+
+#home_txt {
+  float:left;
+}
+#home_txt1 {
+  margin-top:103px;
+  margin-left:21px;
+}
+#home_txt2 {
+  margin-left:22px;
+}
+#home_txt3 {
+  margin-left:21px;
+}
+#home_image {
+	float:right;
+}
+
+/* -------- About Page  -------*/
+
+#photogallery h2 {
+  margin-left:10px;
+}
+
+
+/* -------- Common  -------*/
+
+.center {
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}
